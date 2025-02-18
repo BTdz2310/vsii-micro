@@ -1,0 +1,23 @@
+{
+  "name": "vsii-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:all": "concurrently \"cd article-service && npm run start:dev\" \"cd auth-service && npm run start:dev\" \"cd user-service && npm run start:dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BTdz2310/vsii-micro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BTdz2310/vsii-micro/issues"
+  },
+  "homepage": "https://github.com/BTdz2310/vsii-micro#readme",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
