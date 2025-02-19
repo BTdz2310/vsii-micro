@@ -7,3 +7,12 @@
 [submodule "article-service"]
 	path = article-service
 	url = https://github.com/BTdz2310/vsii-article.git
+[submodule "comment-service"]
+	path = comment-service
+	url = https://github.com/your-username/vsii-comment.git
+[submodule "cache-service"]
+	path = cache-service
+	url = https://github.com/BTdz2310/vsii-cache.git
+[submodule "search-service"]
+	path = search-service
+	url = https://github.com/BTdz2310/vsii-search.git
